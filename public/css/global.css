@@ -1,0 +1,190 @@
+/* Home Page Design ***********************    */
+.top-header {
+    background-color: #4390a8;
+}
+
+
+.logo{
+    /* background-color: green;
+    border-radius: 4px; */
+}
+
+
+.notice {
+    color: yellow;
+}
+
+.copy_right_link {
+    color: rgb(90, 128, 0);
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #29a829;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+     
+}
+
+
+.text_warning{
+    color: red;
+}
+
+.text_info{
+    color: green;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+
+/* All Link Style   */
+
+a {
+    color: #212529;
+}
+ 
+
+
+/* All Button Style   */
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #212529;
+    border-color: #f0f3f7;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #bb1c1f;
+    border-color: #f0f3f7;
+}
+
+
+.list-inline-item a,.specification-list-item a {
+    display: block;
+    margin-top: 6px;
+    
+}
+
+/*
+Style for Reduce Space in category and jumbotron
+*/
+/* Jumbotron Style Css */
+.jumbotron {
+    padding: 2rem 2rem !important;
+    margin-bottom: 0px !important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 1rem !important;
+}
+
+
+/* Single Product Background color Style Css */
+
+.bg-single-product {
+    background-color: #e9ecef;
+}
+
+
+.card-text{
+    font-size: 10px;color: #212529;
+}
+
+#get_estimated_value {
+    position: absolute;
+    display:block;
+    margin-top: 15px;
+}
+
+
+/* Single Product Image Mobile Responsive  420  */
+
+@media only screen and (max-width: 420px) {
+    .card-img-top {
+    
+        height: 300px ;
+    }
+  }
+
+
+
+  /* Single Product Image Mobile Responsive  360  */
+
+  @media only screen and (max-width: 361px) {
+.card-img-top {
+    height: 250px;
+}
+
+
+#get_estimated_value {
+    position: inherit !important;
+    margin-top: 66px;
+}
+
+  }
+
+
+
+
+  /* Brand Page Responsive  */
+
+
+/* Brand  Image Mobile Responsive  360  */
+
+
+
+  @media only screen and (max-width: 5000px) {
+      
+    .brand-image-top{
+        height: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+      
+    .brand-image-top{
+        height: 150px;
+    }
+  }
+
+
+
+
+    /* Category Page Responsive  */
+
+
+/* Category  Image Mobile Responsive  360  */
+
+@media only screen and (max-width: 700px) {
+      
+    .category--image-top{
+        height: 150px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+  }
+
+
+
+  
+
+
